@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var count = 1;
 while (count <= 100) {
   // divisible by both 3 and 5 = fizz buzz
@@ -24,3 +25,4 @@ while (count <= 100) {
   }
   count = count + 1;
 }
+});
